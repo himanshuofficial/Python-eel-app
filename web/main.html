@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEL app</title>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="javascript/script.js"></script>
+</head>
+<body>
+    
+    <h1 align="center" style="background-color: blue ;background-size:auto">Python EEL App</h1>
+    <br><br>
+    <input type="text" id="name1" placeholder="Enter here">
+    <input type="text" id="name2" placeholder="Enter here">
+    <!-- <label for="Operators">Choose a car:</label> -->
+
+    <select id="operators">
+      <option value="+">Add</option>
+      <option value="-">Subtract</option>
+      <option value="concatenation">concatenation</option>
+      <option value="*">Multiply</option>
+    </select> 
+    <input type="submit" value = "calculate" onclick="operation()">
+    <br>
+    <div>
+    <h2><span id="output" style="text-align: center;"><span></h2>
+    </div>
+</body>
+</html>
